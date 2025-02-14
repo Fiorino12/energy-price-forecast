@@ -1,2 +1,2 @@
 # energy-price-forecast
-Final project of the financial engineering course 
+This is the final project for the Financial Engineering course, the aim to develop a neural network that predicts the quantiles of the daily energy price distribution for 2019. The model is trained on a dataset containing load, past prices, and meteorological variables from 2015 to 2018. Various models were explored, as detailed in the report, with the main ones being ARX, CNN, FFNN, and a custom neural network combining LSTM and convolutional layers. Different loss functions were used, including custom ones designed for probabilistic predictions.
